@@ -1,4 +1,5 @@
 const input = document.getElementById("cityInput");
+const button = document.getElementById("searchButton");
 const apiKey= "7ce153ef3170c60aeb3f7c600f2569bb"
 
 input.addEventListener("keydown",(e)=>{
