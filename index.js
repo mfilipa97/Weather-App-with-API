@@ -7,6 +7,10 @@ input.addEventListener("keydown",(e)=>{
     }
 });
 
+button.addEventListener("click", () => {
+    getWeather();
+});
+
 
 function getWeather() {
     const city = document.getElementById("cityInput").value; // Assuming you have an input element with the id "cityInput"
